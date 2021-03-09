@@ -1,0 +1,113 @@
+Header {
+    height: 500px;
+    background: url(images/pasture-scene.jpg);
+    background-size: cover;
+  }
+  
+  header h1 {
+    text-align: center;
+    color: rgb(41, 247, 229);
+    font-family: Futura;
+    font-size: 68px;
+    padding-top: 180px;
+    text-transform: uppercase;
+    margin-top: 0px;            
+    margin-bottom: 40px;        
+  }
+
+  header h2 {
+    text-align: center;
+    color: #fff;
+    font-family: Futura;
+    font-size: 24px;
+    padding-top: 20px;
+    margin: 0px;
+  }
+main{
+  background-color: rgb(218, 216, 216);
+  padding-left: 200px;
+}
+
+  h1 {
+  font-family: "Times new roman";
+  font-size: 72px;
+  color: firebrick;
+  text-align: center;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 45px;
+  color: brown;
+  text-align: center;
+}
+
+h3 { 
+  font-family: arial;
+  font-size:25px;
+  color: rgb(41, 40, 43);
+  text-align: center;
+  }
+
+p {
+  font-family: arial;
+  font-size: 18;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(128, 64, 158)
+}
+
+a {font-family: arial;
+  font-size: 18;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(128, 64, 158)
+  }
+
+  .border-box {
+    width: 400px;
+    background: whitesmoke;
+    padding: 20px;
+    border: 5px solid black;
+    margin: auto;
+    border-radius: 0px 30px 12px 60px;
+  }
+
+
+
+footer {
+    background-color: rgb(134, 173, 247);
+    margin: 200px 0 0 0;
+    padding: 20px 0;
+}
+
+footer p{
+  color: black;
+  }
+
+footer a{
+  color: aqua
+}
+
+main img{
+  margin: auto;
+  border-radius: 50%;
+  }
+
+/*the following was used to play around with changing bullets on unordered lists 
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
+}
+li:before {
+  content: "\f00c"; 
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em; 
+}*/
